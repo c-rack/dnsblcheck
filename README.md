@@ -12,15 +12,17 @@ If the IP address is listed, the DNS TXT record is printed to stdout and program
 
 You need a working [Go installation](http://golang.org/doc/install) to compile dnsblcheck.
 
-    git clone https://github.com/c-rack/dnsblcheck
-    cd dnsblcheck
-    go build
-
+```bash
+git clone https://github.com/c-rack/dnsblcheck
+cd dnsblcheck
+go build
+```
 
 ## Usage
 
-    cat dnsbl.txt | ./dnsblcheck 127.0.0.1
-
+```bash
+cat dnsbl.txt | ./dnsblcheck 127.0.0.1
+```
 
 ## License
 
